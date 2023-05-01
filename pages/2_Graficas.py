@@ -29,7 +29,10 @@ st.plotly_chart(fig, use_container_width = True)
 
 
 st.title('Gráfica de correlación - Mapa de calor')
-df_corr = df.corr()
+df_numeric = df.select_dtypes(include=['float64', 'int64'])
+df_corr = df_numeric.corr()
+
+#df_corr = df.corr()
 fig = go.Figure()
 fig.add_trace(
     go.Heatmap(
