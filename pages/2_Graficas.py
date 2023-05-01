@@ -4,7 +4,7 @@ import plotly.express as px
 import numpy as np
 import plotly.graph_objects as go
 
-df = pd.read_csv('./iris.csv')
+df = pd.read_csv('./Iris.csv')
 
 st.title('Gráficas')
 for i in range(len(df.columns)):
