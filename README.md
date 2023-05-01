@@ -21,6 +21,9 @@ Evidencias del laboratorio:
 ## Mongo y las vistas
 **Ejercicio de creación de vistas desde Mongo Compass**  
 Evidencias de la práctica: 
+![Commits](https://github.com/BradleyCardenas/practica-ML/blob/main/Evidencias/mongo_commit.png)
+![aggregation](https://github.com/BradleyCardenas/practica-ML/blob/main/Evidencias/mongo_aggregation.png)
+![view](https://github.com/BradleyCardenas/practica-ML/blob/main/Evidencias/mongo_view.png)
 
 ## Análisis de datos Iris
 **Actividad que analiza los features de Iris y genera modelos de ML manualmente**  
